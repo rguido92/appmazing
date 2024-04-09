@@ -4,6 +4,9 @@ import javax.persistence.Column;
 import java.math.BigDecimal;
 import java.util.Date;
 
+/**
+ * Capa de comunicacion IO
+ */
 public class ProductDTO {
     private int id;
 
@@ -13,7 +16,7 @@ public class ProductDTO {
 
     private BigDecimal price;
 
-    private boolean active ;
+    private boolean active;
 
     private Date dateAdded;
 

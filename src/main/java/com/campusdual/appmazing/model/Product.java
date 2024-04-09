@@ -19,7 +19,7 @@ public class Product {
     private BigDecimal price;
     @Column
     private boolean active ;
-
+    @Column
     private Date dateAdded;
 
     public int getId() {
